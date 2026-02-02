@@ -4,7 +4,7 @@ void main ()
     int a,b,c;
     printf("enter the value of a,b,c\n");
     scanf("%d %d %d",&a,&b,&c);
-    if (a+b==10 || b+c==100 || c+a==10)
+    if (a+b==10 || b+c==10 || c+a==10)
     {
         printf("10");
         
@@ -17,4 +17,5 @@ void main ()
     {
         printf("0");
     }
+
 }
